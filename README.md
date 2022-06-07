@@ -70,7 +70,21 @@ When we have written our `.hpp` and `.cpp` file we will be writing `.md` which p
 
 And here we will provide you link to that `.md` file
 
-*(when files will be created then we will provide link here)*
+- [Window](documentation/window.md)
+
+---
+
+## Project Setup
+
+### Linux
+
+*It will be soon added*
+
+---
+
+### Window
+
+*It will be soon added*
 
 ---
 
@@ -79,3 +93,9 @@ And here we will provide you link to that `.md` file
 Check out [contribution.md](CONTRIBUTION.md) to contribute in this repository
 
 ---
+
+## Author
+
+- [@susheel_thapa](https://github.com/SusheelThapa)
+- [@raj_kumar_paneru](https://github.com/Rajkumarpaneru18)
+  
