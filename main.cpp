@@ -4,7 +4,8 @@
 #include <SDL2/SDL.h>
 
 #elif _WIN32
-// Header files to be used by window OS
+#include <SDL.h>
+
 
 #endif
 
