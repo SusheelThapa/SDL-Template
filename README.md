@@ -62,6 +62,39 @@ To conclude, SDL is like the part of the vehicle and we need to assemble those p
 
 ---
 
+## How should you approach?
+
+Here are some few suggestion on how you should approach:
+
+1. *It is to be noted that SDL is written in C*. So, if you know C you can write program using SDL
+2. Here, we are making use of OOPs to make our template so that you must be familiar with OOPs concept
+3. We are using C++ as our language to code so it is recommended to know OOPs in C++.
+4. Before going through all the template, you first need learn SDL else you wonot be able to use it properly to 100%.
+5. You can learn SDL from [lazyfoo website](https://lazyfoo.net/tutorials/SDL/index.php)
+6. It is not necessary that you need to know all the things that are mention over [lazyfoo website](https://lazyfoo.net/tutorials/SDL/index.php)
+7. You can learn below topics to be familar with and start coding SDL program.
+    - Hello SDL
+    - Getting Image on the screen
+    - Event Driven Programming
+    - Key Presses
+    - Optimized Surface loading
+    - Loading other Image format
+    - Texture Loading
+    - Geometry rendering
+    - Color Keyring
+    - Clip Rendering
+    - Color Modulation
+    - Animated sprited and Vsync
+    - Rotaion and Flipping
+    - True Type font
+    - Mouse Events
+    - Key States
+    - Text Input and ClipBoard Handling
+    - File Reading and Writing
+    - Window Events
+
+8. More over the template here written are to some extent similar to the code written there as most of the people learn SDL from that website.
+
 ## Documentation
 
 Since, now we have made a prototype of the car now its time tell how it workd where documentation comes in.
