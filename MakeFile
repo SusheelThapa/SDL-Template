@@ -1,0 +1,2 @@
+all:
+	g++ -I include -I include/headers -L include/lib -o main main.cpp src/*.cpp -lSDL2 -lmingw32 -lSDL2main -lSDL2_image
