@@ -7,8 +7,6 @@ Filename: texture.cpp
 This is defination/body of the header file texture.hpp
 */
 
-#pragma once
-
 #include "texture.hpp"
 
 Texture::Texture()
