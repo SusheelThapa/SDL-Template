@@ -104,6 +104,8 @@ When we have written our `.hpp` and `.cpp` file we will be writing `.md` which p
 And here we will provide you link to that `.md` file
 
 - [Window](documentation/window.md)
+- [Texture](documentation/texture.md)
+- [Shape](documentation/shape.md)
 
 ---
 

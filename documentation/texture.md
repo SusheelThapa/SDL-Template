@@ -1,6 +1,6 @@
 # Texture
 
-This is the documenation of the [texture.hpp](../texture.hpp) and [texture.cpp](../texture.cpp).
+This is the documenation of the [texture.hpp](../include/headers/texture.hpp) and [texture.cpp](../include/headers/texture.hpp).
 
 ## private variable
 
@@ -41,7 +41,7 @@ This is the documenation of the [texture.hpp](../texture.hpp) and [texture.cpp](
 
     **arguments:**
 
-    1. `Window`: An instance of [Window](../window.hpp) class object
+    1. `Window`: An instance of [Window](../include/headers/window.hpp) class object
     2. `std::string`: path of the image that will be store in texture variable.
 
     **Usage:**
@@ -77,20 +77,20 @@ This is the documenation of the [texture.hpp](../texture.hpp) and [texture.cpp](
     **arguments:**
 
     1. `Window window`
-    2.
-        An instance of [Window](../window.hpp) class object
 
-    3. `int x, int y`
+        An instance of [Window](../include/headers/window.hpp)) class object
+
+    2. `int x, int y`
 
         The x-coordinate adn y-coordintate of the window from where you want to display the loaded texture on the window
 
-    4. `SDL_Rect render_rect`
+    3. `SDL_Rect render_rect`
 
         Sometime we donot want to display whole image but a portion of image to display for this we define a rectange of the portion, we want to show from the image.
 
         *Note the rectangle portion must be relative to render_quad not he actual image size*
 
-    5. `SDL_Rect render_quad`
+    4. `SDL_Rect render_quad`
 
         It is the a small portion of rectangle of the big window.
 
@@ -98,15 +98,15 @@ This is the documenation of the [texture.hpp](../texture.hpp) and [texture.cpp](
         What if we want ot load the texture over certain part of the window.
         Then we defined the part interms of rectange and pass it as argument for this so that it can render over specified portion that has been described by passed rectangle.
 
-    6. `double angle`
+    5. `double angle`
 
         If you want to rotate the texture then it describe by what angle you want to rotate the texture.
 
-    7. `SDL_Point center`
+    6. `SDL_Point center`
 
         It is the point from which the rotation of the texture is done.
 
-    8. `SDL_RendererFlip flip`
+    7. `SDL_RendererFlip flip`
 
         It isjust used to flip the texture equivalent to reflected image.
 
