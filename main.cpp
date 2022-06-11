@@ -1,7 +1,7 @@
 #include "window.hpp"
 #include "texture.hpp"
 
-int main()
+int main(int argc, char *argv[])
 {
     // An object of window class with 400 * 400 dimension
     Window window("SDL");
