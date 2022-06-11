@@ -1,6 +1,6 @@
 # Window
 
-This is documentation of [window.hpp](/window.hpp) and [window.cpp](/window.cpp).
+This is documentation of [window.hpp](../include/headers/window.hpp) and [window.cpp](../src/window.cpp).
 
 ---
 
