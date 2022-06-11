@@ -113,13 +113,25 @@ And here we will provide you link to that `.md` file
 
 ### Linux
 
-*It will be soon added*
+1. Clone the repository.
+2. Build and run project using command.
+
+    ```bash
+        bash run.sh
+    ```
 
 ---
 
 ### Window
 
-*It will be soon added*
+1. Clone the repository
+2. Build the project using the command.
+
+    ```cmake
+    make all
+    ```
+
+3 It will create an executable and run the executable
 
 ---
 
