@@ -20,6 +20,8 @@ int main(int argc, char *argv[])
     t1.setColor(255, 0, 0, 255);
     t1.setPoints(0, 0, 100, 300, 400, 390);
 
+    r1.setColor(0,255,0,255);
+
     /*Game Loop*/
     while (!window.isWindowClosed())
     {
