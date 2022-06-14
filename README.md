@@ -128,9 +128,14 @@ And here we will provide you link to that `.md` file
 2. Build the project using the command.
 
     ```cmake
-    make all
+    mingw32-make.exe
     ```
+    *Sometime this mightn't work in that case use the below commmand*
 
+    ```terminal
+    g++ main.cpp src/*.cpp -I include/headers -I include -L include/lib -w -Wl,-subsystem,windows -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -o main
+    ```
+    
 3 It will create an executable and run the executable
 
 ---
